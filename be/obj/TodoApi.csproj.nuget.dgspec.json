@@ -1,0 +1,80 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/claudiacarvalhoc/elvisp/projects/todo-list-dot-net-core/be/TodoApi.csproj": {}
+  },
+  "projects": {
+    "/Users/claudiacarvalhoc/elvisp/projects/todo-list-dot-net-core/be/TodoApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/claudiacarvalhoc/elvisp/projects/todo-list-dot-net-core/be/TodoApi.csproj",
+        "projectName": "TodoApi",
+        "projectPath": "/Users/claudiacarvalhoc/elvisp/projects/todo-list-dot-net-core/be/TodoApi.csproj",
+        "packagesPath": "/Users/claudiacarvalhoc/.nuget/packages/",
+        "outputPath": "/Users/claudiacarvalhoc/elvisp/projects/todo-list-dot-net-core/be/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/claudiacarvalhoc/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "dependencies": {
+            "Microsoft.AspNet.WebApi.Client": {
+              "target": "Package",
+              "version": "[5.2.4, )"
+            },
+            "Microsoft.AspNetCore.All": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.201/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
